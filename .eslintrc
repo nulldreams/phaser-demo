@@ -1,0 +1,17 @@
+{
+    "extends": "standard",
+    "rules": {
+      "no-explicit-any": 0,
+      "camelcase": [
+        0,
+        {
+          "ignoreDestructuring": true,
+          "properties": "never"
+        }
+      ],
+      "no-console": "off"
+    },
+    "env": {
+      "jest": true
+    }
+  }
